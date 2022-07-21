@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/game_styling.css">
+    <script src="js/game_logic.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2>Shape Transformation Game</h2>
+        <p id="message"></p>
+      </header>
+      <section class="buttons">
+        <button class="btn" id="start_game">Start Game</button>
+        <button class="btn" id="stop_game">Stop Game</button>
+      </section>
+      <section class="game-section">
+        <section class="info-section">
+          <span id="game-guide"></span>
+          <ol id="coordinate-list"></ol>
+        </section>
+        <canvas id="draw-region" class="draw-region">
+        </canvas>
+      </section>
+    </div>
+  </body>
+</html>

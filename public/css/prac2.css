@@ -1,0 +1,27 @@
+
+table, th, td {border: thin solid;}
+body {display: flex; justify-content: center;}
+table, th, td {border: thin solid;}
+th, td {padding: 10px;}
+thead th {
+background-color: rgb(235, 116, 181);
+color: rgb(14, 13, 13);
+
+}
+tbody th {
+
+color: rgb(19, 18, 18);
+}
+td {
+
+text-align: center;
+}
+#video_style
+{
+    margin-top: 50px;
+}
+
+.container{
+    justify-content:right;
+}
+

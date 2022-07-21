@@ -1,0 +1,84 @@
+body {
+  background-image:  url("back.jpg");
+  
+  background-color: #cccccc;
+}
+.name{
+  
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    
+    font-style: bold;
+    background-color: rgb(230, 184, 199);
+}
+.button {
+  border: none;
+  color: rgb(150, 57, 57);
+  padding: 7px 25px;
+  text-align: right;
+  background-color: bisque;
+  
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px;
+  cursor: auto;
+  
+}
+.button1{
+    text-align:right;
+}
+.imgmain{
+    display: block;
+    
+padding: auto;
+margin-right: 20px;
+}
+q {
+  background-color: rgb(230, 184, 199);
+  width: 350px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(26, 10, 29);
+  border: 5px solid rgb(167, 68, 134);
+  padding: 5px;
+ 
+
+}
+.photo{
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(21, 22, 22);
+    background-color: rgb(230, 184, 199)
+    
+}
+
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: rgb(216, 199, 212);
+  box-shadow: inset 5px 0 5px -5px #8b217a;
+}
+
+#links{
+  margin-left: 125px;
+  padding-bottom: 200px;
+
+}
+
+#av{
+  margin-left: 105px;
+}
+#feedback{
+  margin-left: 130px;
+}
+
+.table{
+  display: table;
+  border-spacing: 30px;
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
