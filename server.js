@@ -1,10 +1,11 @@
-function smail(email2, name) {
+function smail(email2, name, count) {
     const nodemailer = require('nodemailer');
+      
     let mailOptions = {
         from: "nnirmita82@gmail.com",
         to: email2,
         subject: "Thanks for your Feedback",
-        text: "Dear " + name + ", Thank you for your feedback! \n\nNirmita N \n https://mysterious-waters-08335.herokuapp.com/"
+        text: "Dear " + name + ", Thank you for your feedback! you are my "+count+" honored guest who left feedback.. \n\nNirmita N \n https://mysterious-waters-08335.herokuapp.com/"
     };
 
 
