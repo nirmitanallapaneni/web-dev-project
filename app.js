@@ -5,6 +5,7 @@ const nodemailer = require('nodemailer');
 var bodyParser = require('body-parser');
 const { stringify } = require('querystring');
 const fs = require('fs');
+const cors = require('cors');
 
 const MongoClient = require('mongodb').MongoClient;
 const url = "mongodb+srv://nirmitan:1234@cluster0.iwrwf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
@@ -33,6 +34,7 @@ const port = process.env.PORT || 8000;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(cors());
 app.use(express.static('public'));
 app.use('/css', express.static(__dirname + '/public/css'));
 app.use('/img', express.static(__dirname + '/public/img'));
